@@ -130,6 +130,9 @@ if has("gui_running")
   " autocmd VimEnter * NERDTree
 endif
 
+" ============== Ruby ============================
+autocmd FileType ruby setlocal et ts=2 sw=2 tw=0
+
 " ============= Grep plugin ======================
 nnoremap <F3> :Ag<CR>
 
