@@ -106,6 +106,7 @@ if has("user_commands")
     command! -bang Q q<bang>
     command! -bang QA qa<bang>
     command! -bang Qa qa<bang>
+    cab X x
 endif
 
 " ============== GUI Scrollbars ========================
