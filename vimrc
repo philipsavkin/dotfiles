@@ -25,13 +25,12 @@ set hidden
 syntax on
 
 if has("gui_running")
-  set background=light
-  let g:solarized_contrast = "high"
-  colorscheme solarized
+  set background=dark
+  colorscheme Monokai 
 else
   set background=dark
   set t_Co=256
-  colorscheme wombat256mod
+  colorscheme Monokai
 end
 
 " ================ Search Settings  =================
@@ -119,7 +118,7 @@ if has("gui_running")
         set guifont=Consolas:h11
     endif
     if has("unix")
-      set guifont=Inconsolata\ 14
+      set guifont=DejaVu\ Sans\ Mono\ 11
     endif
 endif
 
