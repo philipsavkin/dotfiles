@@ -132,6 +132,9 @@ if has("gui_running")
   " autocmd VimEnter * NERDTree
 endif
 
+" ============== Leader mappings ==================
+noremap <Leader>r :w<CR> :!./%<CR>
+
 " ============== Ruby ============================
 autocmd FileType ruby setlocal et ts=2 sw=2 tw=0
 
