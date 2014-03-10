@@ -29,7 +29,7 @@ alias zshconfig="vi ~/.zshrc"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git rails3 mvn bundler gem)
+plugins=(git rails mvn bundler gem)
 
 source $ZSH/oh-my-zsh.sh
 unsetopt correct_all
