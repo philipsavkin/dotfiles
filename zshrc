@@ -34,6 +34,8 @@ plugins=(git rails mvn bundler gem)
 source $ZSH/oh-my-zsh.sh
 unsetopt correct_all
 
+ZLE_REMOVE_SUFFIX_CHARS=""
+
 function mdcd () { mkdir -p "$@" && eval cd "\"\$$#\""; }
 
 # Customize to your needs...
