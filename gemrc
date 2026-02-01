@@ -1,9 +1,0 @@
---- 
-:verbose: true
-:benchmark: false
-install: --no-rdoc --no-ri
-:backtrace: false
-:bulk_threshold: 1000
-ssl_verify_mode: 0
-:update_sources: true
-update: --no-rdoc --no-ri
